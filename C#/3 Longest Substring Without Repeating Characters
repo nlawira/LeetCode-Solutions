@@ -1,0 +1,28 @@
+public class Solution {
+    public int LengthOfLongestSubstring(string s) {
+        var last_seen = new Dictionary<string, int>{};
+        int max_len = 0;
+        int left;
+        int substring_len;
+
+        // Record the most recent occurence of each 'char' in string 's' along with its
+        // most recent index into 'last_seen'.
+        // The length of the substring with no repeating characters is stored in
+        // 'substring_len'.
+        // Code will only check for the length of the next unique substring, i.e. 'substring_len'
+        // when the same character is found in 'last_seen'.
+        for (int i = 0; i < s.Length; i++){
+            if (last_seen.ContainsKey(s[i]) && last_seen[s[i]] >= left){
+                left = last_seen[s[i]] + 1;
+            }
+
+            last_seen[s[i]] = i;
+
+            substring_len = right - left + 1;
+            if (substring_len >= max_len){
+                max_len = substring_len;
+            }
+        return max_len;
+        }
+    }
+}
