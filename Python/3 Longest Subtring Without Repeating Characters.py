@@ -17,9 +17,9 @@ class Solution(object):
                 left = last_seen[char] + 1
 
             # Input character into 'last_seen' along with its index
-            # For example, if 'a' was seen at index 2, then another 'a' is
+            # For example, if "a" was seen at index 2, then another "a" is
             # seen at index 5, it will override the previous entry.
-            # So, 'a' most recent occurence is at index 5.
+            # So, "a" most recent occurence is at index 5.
             last_seen[char] = right
 
             # Calculate the length of the unique substring each time.
