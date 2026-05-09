@@ -18,7 +18,7 @@ LeetCode problems can be accessed under the ***Problems*** section [here](https:
 <img width="1914" height="938" alt="image" src="https://github.com/user-attachments/assets/e8a53b32-4db8-4c3d-b7e1-65cdde29f90d" />
 
 5. Refer to this repository for my proposed solutions. I have carefully grouped problems by **programming languages** to showcase my proposed solutions in different languages and for ease of navigation!
-![image](https://github.com/user-attachments/assets/33decde9-64f3-4f9e-b22b-91660444f1e2)
+<img width="1906" height="932" alt="image" src="https://github.com/user-attachments/assets/59c169ee-15bf-4e35-a531-5b1a892f298e" />
 
 ## Contact me
 Thank you so much for using my repository! I sincerely hope my proposed solutions can help you to further your skills in programming! :smile:
